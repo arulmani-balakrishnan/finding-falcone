@@ -1,0 +1,133 @@
+body {
+    margin: 0px;
+    font-size: 1em;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 300;
+}
+button {
+    background-color: #03c9a9;
+    color: white;
+    border: 1px solid #ccc;
+    width: 150px;
+    border-radius: 9px;
+    height: 40px;
+    font-size: 1em;
+    font-weight: 400;
+}
+button:disabled {
+    background-color: grey;
+}
+.headerBar {
+    border-bottom: 1px solid #3c3c56;
+    background: #100f24;
+    width: 100%;
+    min-height: 10vh;
+}
+.headerBar img {
+    width: 8em;
+    vertical-align: middle;
+    padding: 2.6vh;
+}
+.footerBar a {
+    background-color: #100f24;
+    border-top: 1px solid #3c3c56;
+    color: #03c9a9;
+    font-weight: 500;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    min-height: 10vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.sectionHeader {
+    color: #03c9a9;
+    font-weight: 500;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+.contentsPanel {
+    height: 80vh;
+    overflow: auto;
+}
+.dataContainer {
+    padding: 0px 15px;
+}
+.fullWidth {
+    width: 100%;
+}
+.entitySelectionPanel {
+    border: 1px solid #100f24;
+    width: 250px;
+    max-height: 250px;
+    border-radius: 5px;
+    box-shadow: 2px 2px grey;
+    padding: 15px;
+}
+.vehicleSelectionPanel {
+    margin: 5px 0px;
+}
+.destinationContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.destinationContainer > div {
+    margin: 10px;
+}
+.disabledLabel {
+    color: grey;
+}
+.labelText {
+    padding: 5px;
+}
+.labelText > span {
+    color: #100f24;
+    font-weight: 400;
+}
+.subDetailsPanel > div.labelText {
+    padding: 2px;
+}
+
+.borderBottomLogoGreen {
+    border-bottom: 1px solid #03c9a9;
+}
+.borderTopLogoGreen {
+    border-top: 1px solid #03c9a9;
+}
+.startAgain {
+    text-align: center;
+}
+.resultsContainer {
+    padding: 0px 15px;
+}
+.resultsContainer > div {
+    font-weight: 400;
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.failureMessage {
+    color: red;
+}
+.successMessage {
+    color: green;
+}
+.loadingText {
+    width: 50px;
+}
+.bold{
+    font-weight: bold;
+}
+.errorMessage {
+    font-weight: bold;
+    color: red;
+    text-align: center;
+    height: 50vh;
+    vertical-align: text-bottom;
+    margin-top: 20vh;
+}
